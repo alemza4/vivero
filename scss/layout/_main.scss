@@ -1,0 +1,22 @@
+.slide h1{
+    color:$color-secundario;
+    position: absolute;
+    font-size: 3em;
+    top: 20%;
+    margin-left: 8em;
+    text-shadow: 10px 10px 10px $color-secundario;
+    justify-content: space-around;
+    
+    p{
+        color: $color-secundario;
+        position: absolute;
+        font-size: 2.5em;
+        top: 40%;
+        margin-left: 11em;
+        text-shadow: 8px 8px 8px $color-secundario;
+        justify-content: space-around}
+        .slide img{
+            height: 30em;
+        }
+    }
+  

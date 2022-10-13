@@ -1,0 +1,225 @@
+@media only screen and (max-width: 586px){
+    .navbar{
+        margin: 0 auto;
+    
+}
+.slide{
+    display: none;}
+}
+
+
+.pie-pagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:30px;
+    padding: 35px 0px;
+}
+.containerimg{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+}
+.red-social{
+    margin-left: 20%;
+}
+.conteiner-productos{
+    width: 90%;
+    height: 90%;
+    padding: 1px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px;
+}
+.contenedor figure{
+    height: 250px;
+    width: 300px;
+}
+.contenedor figure .capa p{
+         display: none;
+}
+.conteiner-productos{
+    width: 90%;
+    height: 90%;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor figure{
+    height: 300px;
+    width: 250x;
+}
+.caja{
+    width: 80%;
+    height: 90%;
+    background: #efefef;
+ 
+}
+.container-img{
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-img img{
+    height: 300px;
+}
+.info-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:3em;
+    p{
+        color:  #212F3C;
+        font-size: 15px;
+        }
+        h3{
+            font-size: 25px;
+            text-align: center;
+        }
+}
+iframe{
+    width: 400px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 800px){
+    .navbar{
+        margin: 0 auto;
+}
+.collapse{
+    justify-content: center;
+}
+.pie-pagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:30px;
+    padding: 35px 0px;
+}
+.red-social{
+    margin-left: 30%;
+}
+.containerimg{
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-template-rows: 200px;
+    align-items: center;
+}
+.boximg P{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+.containerimg .boximg:nth-child(1){
+    grid-column-start: span 1;
+}
+.conteiner-productos{
+    width: 90%;
+    height: 90%;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor figure{
+    height: 300px;
+    width: 250x;
+}
+.caja{
+    width: 90%;
+    height: 90%;
+    background: $color-secundario;
+}
+.container-img{
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 200px;
+} 
+.info-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:3em;
+    p{
+        color: #212F3C;
+        font-size: 15px;
+        text-align: center;
+        }
+        h3{
+            font-size: 25px;
+            text-align: center;
+        }
+}
+iframe{
+    width: 600px;
+    height: 300px;
+}
+form{
+    width: 600px;
+}
+}
+
+@media screen and (max-width:1022px){
+    .pie-pagina .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+    }
+    .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 35px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .containerimg{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        grid-template-rows: 200px;
+        align-items: center;
+    }
+           .pie-pagina .grupo-1{
+                width: 100%;
+                max-width: 1200px;
+                margin: auto;
+                display:grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap:50px;
+                padding: 45px 0px;}
+
+            .container-img{
+                width: 90%;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 10px;
+                grid-template-rows: 200px;
+            }
+        .info-contacto{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin:3em;
+            p{
+                color: #212F3C;
+                font-size: 15px;
+                text-align: center;
+                }
+                h3{
+                    font-size: 25px;
+                    text-align: center;
+        }
+    }
+                iframe{
+                     width: 800px;
+                     height: 300px;
+    }
+                form{
+                    width:800px;
+}
+    }

@@ -1,0 +1,13 @@
+@mixin propiedades-grid($gridcolum,$gridrow,$gap){
+
+    display: grid;
+    grid-template-columns: $gridcolum;
+    grid-template-rows: $gridrow;
+    grid-gap: $gap;
+}
+@mixin propiedades-flex($direction,$justify,) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    
+}

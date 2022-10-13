@@ -1,0 +1,32 @@
+.containerimg{
+    @include propiedades-grid(1fr 1fr 1fr,repeat 4, auto,20px);
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    display: grid;
+    .boximg{
+        width: 90%;
+        height: 90%;
+        }
+        P{
+            width: 90%;
+            height: 90%;
+            text-align: center;
+            color: $color-principal;
+            background-image: $degrade;
+            margin: 0 0 25px;
+            overflow: hidden;
+            padding: 20px;
+            border-radius: 5px;
+      }
+        .boximg img{
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 5px 10px 5px #4B7020;
+    }
+       
+}

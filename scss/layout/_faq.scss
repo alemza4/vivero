@@ -1,0 +1,33 @@
+.caja{
+    width: 70%;
+    margin: 80px auto;
+    background: $color-secundario;
+    border-radius: 7px;
+    box-shadow: 10px 2px 4px rgba(19, 214, 29, 0.363);
+    .titulo{
+        background: #212f3c ;
+        border-radius: 7px 7px 0px 0px;
+        padding: 15px;
+        color: $color-secundario;
+        text-align: center;  
+     }
+      .faqs{
+        padding: 0px 20px 20px;
+     }
+       ::-webkit-details-marker{
+        margin-right: auto;
+        margin-top: 3px;
+     }
+        details{
+          background-image: $degrade;
+          padding: 10px 20px;
+          border-radius: 7px;
+          margin-top: 20px;
+          font-size: 14px;
+          letter-spacing: 1px;
+          cursor: pointer;
+     }
+        summary{
+        outline: none;
+ }
+}

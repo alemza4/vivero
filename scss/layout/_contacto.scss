@@ -1,0 +1,54 @@
+
+.info-contacto{
+    @include propiedades-flex (row,space-evenly);
+        display: flex;
+        margin: 5em;
+        p{
+        color:  #212F3C;
+        font-size: 20px;
+        }
+        h3{
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+     
+form{
+        width: 400px;
+        background:#739B66;
+        padding: 30px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 4px;
+        
+    }
+.contacto{
+        width: 100%;
+        background: $color-secundario;
+        padding: 8px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #212F3C;
+        font-size: 14px;
+    }
+.consulta{
+        width: 100%;
+        background: $color-secundario;
+        padding: 8px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #212F3C;
+        font-size: 40px;
+    }
+.enviar{
+        width: 100%;
+        border: none;
+        padding: 16px;
+        background: #739B66;
+        background: #212F3C;
+        margin: 16px 0;
+        font-size: 18px;
+        border-radius: 6px;
+        color: #739B66;
+
+    }
